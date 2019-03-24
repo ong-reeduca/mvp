@@ -1,0 +1,51 @@
+body {
+    font-family: 'Robot', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8F2F4;
+}
+
+.titulo {
+    text-align: center;
+    color: #3B5368;
+}
+
+.texto,
+.social {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto {
+    margin-top: 5%;
+}
+
+.social {
+    margin-top: 3%;
+}
+
+.texto h2 {
+    color: #3B5368;
+    font-size: 2.5em;
+}
+
+.social__itens a {
+    display: inline-flex;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.social img {
+    height: 50px;
+    width: 50px;
+}
+
+.social p {
+    color: #3B5368;
+    font-weight: bold;
+}
+
+.social__itens p:hover {
+    color: #6892B7;
+}
